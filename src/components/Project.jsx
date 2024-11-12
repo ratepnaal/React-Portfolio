@@ -32,8 +32,8 @@ const Project = () => {
       },
     {
       img:project4 ,
-       github_link:'' ,
-        live_link:'',
+       github_link:'https://github.com/ratepnaal/React-Portfolio.git' ,
+        live_link:'https://react-portfolio-rosy-eta.vercel.app/',
         name:' My Portfolio '
       },
   ]
