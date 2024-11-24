@@ -8,6 +8,7 @@ import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/project2.png'
 import project3 from '../assets/images/project3.png'
 import project4 from '../assets/images/project4.png'
+import project5 from '../assets/images/project5.png'
 import project_person from '../assets/images/project_person.png'
 
 const Project = () => {
@@ -36,6 +37,12 @@ const Project = () => {
         live_link:'https://react-portfolio-rosy-eta.vercel.app/',
         name:' My Portfolio '
       },
+      {
+        img:project5 ,
+         github_link:'https://github.com/ratepnaal/MovieLand-Website-.git' ,
+          live_link:'https://movie-land-baim5gqyl-ratepnaals-projects.vercel.app/',
+          name:'Movie Land Website  '
+        },
   ]
   return (
     <section id='projects' className='py-10 text-white'>
