@@ -23,7 +23,7 @@ const Project = () => {
       img:project2 
       , github_link:'https://github.com/ratepnaal/Awards-Waining-' ,
        live_link:'https://awards-waining.vercel.app/',
-       name:'GSAP & React Gaming Website'
+       name:'Gaming Website'
       },
     {
       img:project3
