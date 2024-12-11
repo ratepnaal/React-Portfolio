@@ -21,9 +21,9 @@ const Project = () => {
       },
     {
       img:project2 
-      , github_link:'https://github.com/ratepnaal/Email-Sender.git' ,
-       live_link:'https://ratepnaal.github.io/Email-Sender/',
-       name:'Email Sender & Stop Watch '
+      , github_link:'https://github.com/ratepnaal/Awards-Waining-' ,
+       live_link:'https://awards-waining.vercel.app/',
+       name:'GSAP & React Gaming Website'
       },
     {
       img:project3

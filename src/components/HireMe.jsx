@@ -16,8 +16,8 @@ const HireMe = () => {
           <p className='max-w-lg text-sm mt-6 text-gray-200 leading-6 '>
           I am a third-year Information Technology student specializing in front-end development.
            I recently completed a two-month internship at Mad Solution Software Company,
-            gaining hands-on experience. I am proficient in HTML, CSS, Tailwind CSS, JavaScript, React.js, Redux,
-             and Toolkit. I am committed to continuous learning and actively seeking a Junior Front-End Developer
+            gaining hands-on experience. I am proficient in HTML, CSS, Tailwind CSS, JavaScript, React.js.
+              I am committed to continuous learning and actively seeking a Junior Front-End Developer
               position.
           </p>
           <div className='flex items-center justify-center mt-3'>
