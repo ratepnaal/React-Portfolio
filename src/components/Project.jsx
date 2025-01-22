@@ -16,7 +16,7 @@ const Project = () => {
     {
         img:project1 ,
        github_link:'https://github.com/ratepnaal/E-Commerce-Company.git' ,
-        live_link:'https://rateb-alnaal.trainees-mad-s.com/',
+        live_link:'https://e-commerce-company-q5nv3puza-ratepnaals-projects.vercel.app/',
         name:'E Commerce Full Website'
       },
     {
