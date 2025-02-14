@@ -27,9 +27,9 @@ const Project = () => {
       },
     {
       img:project3
-      , github_link:'https://github.com/ratepnaal/Portofolio.git' ,
-       live_link:'https://ratepnaal.github.io/Portofolio/',
-       name:' Old Portfolio '
+      , github_link:'https://github.com/ratepnaal/To-Do-Project',
+       live_link:'https://to-do-project-xi-nine.vercel.app/',
+       name:' CURD Project'
       },
     {
       img:project4 ,
