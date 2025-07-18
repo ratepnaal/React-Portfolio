@@ -27,9 +27,9 @@ const Project = () => {
       },
     {
       img:project3
-      , github_link:'https://github.com/ratepnaal/To-Do-Project',
-       live_link:'https://to-do-project-xi-nine.vercel.app/',
-       name:' CURD Project'
+      , github_link:'https://github.com/ratepnaal/farhat_project-.git',
+       live_link:'https://farhat-project.vercel.app/en',
+       name:' Farhat Market '
       },
     {
       img:project4 ,
