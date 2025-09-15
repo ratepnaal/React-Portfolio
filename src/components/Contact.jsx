@@ -4,7 +4,7 @@ const Contact = () => {
   const contact_info = [
     { logo: "mail", text: "ratepn445@gmail.com", link: "mailto:ratepn445@gmail.com" },
     { logo: "logo-whatsapp", text: "+963959547610", link: "https://wa.me/963959547610" },
-    { logo: "location", text: "Syria, Damascus, Alassad Suburb", link: "https://www.google.com/maps/place/Alassad+Suburb,+Damascus,+Syria" },
+    { logo: "location", text: "Syria, Damascus, Duma", link: "https://maps.app.goo.gl/Qw77wGciHk3GYkhM7" },
   ];
 
   const [formData, setFormData] = useState({
