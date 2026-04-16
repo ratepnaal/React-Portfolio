@@ -49,7 +49,7 @@ const Project = () => {
        github_link:'https://github.com/ratepnaal/e-commerce-MERN-Stack.git' ,
         live_link:'https://e-commerce-mern-stack-tan.vercel.app/',
         name:'MERN STACK Tecnical Store'
-      }
+      },
   ]
   return (
     <section id='projects' className='py-10 text-white'>
