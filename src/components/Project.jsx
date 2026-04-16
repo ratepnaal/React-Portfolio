@@ -9,12 +9,13 @@ import project2 from '../assets/images/project2.png'
 import project3 from '../assets/images/project3.png'
 import project4 from '../assets/images/project4.png'
 import project5 from '../assets/images/project5.png'
+import project6 from '../assese/images/project6.png'
 import project_person from '../assets/images/project_person.png'
 
 const Project = () => {
   const projects = [
     {
-        img:project1 ,
+        img:project1,
        github_link:'https://github.com/ratepnaal/E-Commerce-Company.git' ,
         live_link:'https://e-commerce-company.vercel.app/',
         name:'E Commerce Full Website'
@@ -43,6 +44,12 @@ const Project = () => {
           live_link:'https://movie-land-baim5gqyl-ratepnaals-projects.vercel.app/',
           name:'Movie Land Website  '
         },
+      {
+        img:project6 ,
+       github_link:'https://github.com/ratepnaal/e-commerce-MERN-Stack.git' ,
+        live_link:'https://e-commerce-mern-stack-tan.vercel.app/',
+        name:'MERN STACK Tecnical Store'
+      }
   ]
   return (
     <section id='projects' className='py-10 text-white'>
