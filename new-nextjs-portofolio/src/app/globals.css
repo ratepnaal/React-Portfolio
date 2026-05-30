@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --pink: #e31f71;
+  --black: #212121;
+  --green: #23ce6b;
+  --blue: #016fb9;
+  scroll-padding-top: 8rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: #ffffff;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light body {
+  background-color: #f5f5f5;
+  color: var(--black);
+}
+
+.light .header-fixed {
+  background-color: #f5f5f550;
+}
+
+.light .header-fixed a {
+  color: var(--black);
+}
+
+.light .footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--black);
+}
+
+.light input,
+.light textarea {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.light input::placeholder,
+.light textarea::placeholder {
+  color: var(--black);
+}
+
+@layer components {
+  .button-primary {
+    @apply rounded-full bg-[var(--green)] font-medium text-white transition hover:brightness-90;
+  }
+}
