@@ -14,6 +14,7 @@ const navLinks = [
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isLight, setIsLight] = useState(false);
 
   const toggleTheme = () => {
     if (typeof document === "undefined") return;
@@ -30,8 +31,11 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <input
-            onChange={toggleTheme}
-            className="peer sr-only"
+            onChange={() => {
+              setIsLight((prev) => !prev);
+              toggleTheme();
+            }}
+            className="sr-only"
             type="checkbox"
             id="theme-toggle"
             name="mode"
@@ -40,7 +44,11 @@ export function Header() {
             htmlFor="theme-toggle"
             className="relative h-7 w-12 cursor-pointer rounded-full bg-[var(--green)]"
           >
-            <span className="absolute left-1 top-1 h-5 w-5 rounded-full bg-white transition-transform duration-300 peer-checked:translate-x-5"></span>
+            <span
+              className={`absolute left-1 top-1 h-5 w-5 rounded-full bg-white transition-transform duration-300 ${
+                isLight ? "translate-x-5" : ""
+              }`}
+            ></span>
           </label>
           <button
             className="text-2xl text-white md:hidden"

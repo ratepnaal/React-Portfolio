@@ -15,7 +15,7 @@ html {
 body {
   background-color: var(--black);
   color: #ffffff;
-  font-family: var(--font-red-hat), sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 a {

@@ -2,11 +2,10 @@
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import type { Engine } from "tsparticles-engine";
 
 export function ParticlesBackground() {
-  const init = async (engine: Engine) => {
-    await loadFull(engine);
+  const init = async (engine: unknown) => {
+    await loadFull(engine as never);
   };
 
   return (

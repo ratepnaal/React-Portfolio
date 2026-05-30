@@ -16,7 +16,7 @@ export function Hero() {
     <section id="home" className="relative z-10 flex min-h-screen flex-col items-center justify-center gap-12 px-6 pb-16 pt-36 md:flex-row md:pt-40">
       <div className="max-w-2xl text-center md:text-left">
         <p className="text-xl text-white/80">
-          Hello <span className="text-2xl">👋</span>, I'm
+          Hello <span className="text-2xl">👋</span>, I&apos;m
         </p>
         <h1 className="mt-4 text-4xl font-bold md:text-6xl">{profile.name}</h1>
         <h3 className="mt-4 text-2xl font-semibold text-[var(--green)]">

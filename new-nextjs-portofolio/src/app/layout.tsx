@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import { Red_Hat_Display } from "next/font/google";
 import "./globals.css";
-
-const redHatDisplay = Red_Hat_Display({
-  variable: "--font-red-hat",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Rateb Alnaal Portfolio",
@@ -20,7 +14,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${redHatDisplay.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import type { ChangeEvent, FormEvent } from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import { contact } from "@/data/portfolio";
 
@@ -12,12 +13,12 @@ export function Contact() {
   });
   const [sent, setSent] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const mailto = `mailto:${contact.email.label}?subject=Contact from ${formData.name}&body=${formData.message} (from ${formData.email})`;
     window.location.href = mailto;
